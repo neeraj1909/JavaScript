@@ -35,5 +35,16 @@ console.log("The new value of y: " + y)
 1. Can you store multiple types in an array? Numbers and strings?
 2. Can you compare inifities? (Not in Eyad's world) - does 6/0 == 10/0? How can you test this?  */
 // 1. Yes, we can store multiple value in an array.
+var array = [5, '5', 'neeraj'];
+for(i in array) {
+    console.log(array[i]);
+}
 // 2. No, it will raise Divion by Zero-Error.
+if(6/0 === 10/0) {
+    console.log("We can compare infinities");
+}
+else {
+    console.log("We can't compare infinities");
+}
+
 
